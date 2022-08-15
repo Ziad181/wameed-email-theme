@@ -1,6 +1,6 @@
 <?php
 
-namespace Ziad181\DatabaseOfCountriesAndCities;
+namespace Wameed\WameedEmailTheme;
 
 use Illuminate\Support\ServiceProvider;
 
