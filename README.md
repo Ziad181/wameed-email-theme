@@ -1,4 +1,4 @@
-# Database Of Countries And Cities.
+# Wameed's Emails Theme.
 This package contains Wameed's emails theme.
 
 - install the package 
