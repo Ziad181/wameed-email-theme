@@ -14,7 +14,7 @@ class EmailServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([__DIR__ . '/resources/views' => resource_path('views/Mails'),]);
+        $this->publishes([__DIR__ . '/resources/views' => resource_path('views'),]);
         $this->publishes([__DIR__ . '/config/email.php' => config_path('email.php'),]);
     }
 
