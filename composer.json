@@ -1,0 +1,29 @@
+{
+  "name": "wameed/wameed-email-theme",
+  "description": "This package contains Wameed's emails theme.",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "illuminate/support": ">=7.4"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ziad Rashad",
+      "email": "ziadrashad.18@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Wameed\\WameedEmailTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Wameed\\WameedEmailTheme\\CountriesServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
