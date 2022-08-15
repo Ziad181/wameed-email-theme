@@ -4,7 +4,7 @@ namespace Ziad181\DatabaseOfCountriesAndCities;
 
 use Illuminate\Support\ServiceProvider;
 
-class CountriesServiceProvider extends ServiceProvider
+class EmailServiceProvider extends ServiceProvider
 {
 
     /**
