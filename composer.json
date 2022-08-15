@@ -21,7 +21,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Wameed\\WameedEmailTheme\\CountriesServiceProvider"
+        "Wameed\\WameedEmailTheme\\EmailServiceProvider"
       ]
     }
   },
