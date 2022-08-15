@@ -1,27 +1,15 @@
 # Database Of Countries And Cities.
-This package contains a database of all countries and cities in 3 different languages: English, Arabic and French.
-
+This package contains Wameed's emails theme.
 
 - install the package 
-`composer require ziad181/database-of-countries-and-cities`
+`composer require wameed/wameed-email-theme`
 
 
 - You can publish using the following command
 
-`php artisan vendor:publish --provider="Ziad181\DatabaseOfCountriesAndCities\CountriesServiceProvider"`
+`php artisan vendor:publish --provider="Wameed\\WameedEmailTheme\\CountriesServiceProvider"`
 
-- Export the tables to the database
+- Optimize cache
 
-`php artisan migrate`
+`php artisan optimize`
  
-- Open the DatabaseSeeder file and add the following code:
-
-```php
-    $this->call([
-            CountrySeeder::class, 
-            CitySeeder::class,
-    ]);
-```
-- Export data to the database
-
-`php artisan db:seed`
