@@ -171,7 +171,7 @@
                                                     >
                                                         رمز التحقق تأكيد الحساب
                                                         من
-                                                        {{config('app.name')}}
+                                                        {{config('email.app_name')}}
                                                     </p>
                                                     <p
                                                         style="
@@ -183,7 +183,7 @@
                                                         "
                                                     >
                                                         يُرجى إدخال هذا الرمز في
-                                                        منصة  {{config('app.name')}} لتأكيد الحساب
+                                                        منصة  {{config('email.app_name')}} لتأكيد الحساب
                                                         :
                                                     </p>
                                                     <h3
@@ -209,7 +209,7 @@
                                                         يُرجى عدم مشاركة هذا
                                                         الرمز مع أي شخص وعدم
                                                         استخدامه إلا داخل منصة
-                                                        {{config('app.name')}}.
+                                                        {{config('email.app_name')}}.
                                                     </p>
                                                     <p
                                                         style="
@@ -231,7 +231,7 @@
                                                             text-align: right;
                                                         "
                                                     >
-                                                        {{config('app.name')}}
+                                                    فريق {{config('email.app_name')}}
                                                         .
                                                     </p>
                                                 </td>
@@ -506,7 +506,7 @@
                                             text-align: center;
                                         "
                                     >
-                                        جميع الحقوق محفوظة لـ منصة  {{config('app.name')}}
+                                        جميع الحقوق محفوظة لـ منصة  {{config('email.app_name')}}
                                     </p>
                                 </td>
                             </tr>

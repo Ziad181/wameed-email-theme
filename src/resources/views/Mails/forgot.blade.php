@@ -172,7 +172,7 @@
                                                         >
                                                             رمز التحقق إعادة
                                                             تعيين كلمة المرور من
-                                                            {{config('app.name')}}
+                                                            {{config('email.app_name')}}
                                                         </p>
                                                         <p
                                                             style="
@@ -199,7 +199,7 @@
                                                             يُرجى إدخال رمز
                                                             التحقق لإعادة تعيين
                                                             كلمة المرور لحساب
-                                                            {{config('app.name')}}:
+                                                            {{config('email.app_name')}}:
                                                         </p>
                                                         <h3
                                                             style="
@@ -241,7 +241,7 @@
                                                             الرمز مع أي شخص وعدم
                                                             استخدامه إلا داخل
                                                             منصة
-                                                            {{config('app.name')}}.
+                                                            {{config('email.app_name')}}.
                                                         </p>
                                                         <p
                                                             style="
@@ -263,7 +263,7 @@
                                                                 text-align: right;
                                                             "
                                                         >
-                                                            {{config('app.name')}}
+                                                        فريق  {{config('email.app_name')}}
                                                             .
                                                         </p>
                                                     </td>
@@ -543,7 +543,7 @@
                                             "
                                         >
                                             جميع الحقوق محفوظة لـ منصة
-                                            {{config('app.name')}}
+                                            {{config('email.app_name')}}
                                         </p>
                                     </td>
                                 </tr>

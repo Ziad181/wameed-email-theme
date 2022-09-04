@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '6427a120ce264628b8b7d441ae7fac8218f4afbb',
+        'reference' => '0b40c62bfea0c9f45fbc70af97a75b8bb7279d22',
         'name' => 'wameed/wameed-email-theme',
         'dev' => true,
     ),
@@ -27,7 +27,7 @@
             'aliases' => array(
                 0 => '10.x-dev',
             ),
-            'reference' => 'fc56a71863d6c125df3d3ba36042b5c0a57827ef',
+            'reference' => 'fc2c4ceb785822f1f94b45c52d1a7e92e2db0132',
             'dev_requirement' => false,
         ),
         'illuminate/conditionable' => array(
@@ -38,7 +38,7 @@
             'aliases' => array(
                 0 => '10.x-dev',
             ),
-            'reference' => 'b5845c3a1c2045011a4a066e8b63d5ddf107ad47',
+            'reference' => '0418320648cd9e9d304980b5fb13836dc1b553f2',
             'dev_requirement' => false,
         ),
         'illuminate/contracts' => array(
@@ -49,7 +49,7 @@
             'aliases' => array(
                 0 => '10.x-dev',
             ),
-            'reference' => 'fffaddd47422b6d4885efe71a6c23097bf430cc6',
+            'reference' => 'fd910ef152725025561c4b85f03e6e5ab180f57f',
             'dev_requirement' => false,
         ),
         'illuminate/macroable' => array(
@@ -60,7 +60,7 @@
             'aliases' => array(
                 0 => '10.x-dev',
             ),
-            'reference' => '586a755ed8210e5960ee531511b6d079e0266162',
+            'reference' => '2f310e209b4c708355e86dbab480c2c8fb492538',
             'dev_requirement' => false,
         ),
         'illuminate/support' => array(
@@ -71,7 +71,7 @@
             'aliases' => array(
                 0 => '10.x-dev',
             ),
-            'reference' => '5fc56fcfc566e135db5daf6354929ad8edefbd44',
+            'reference' => 'f841a3e1da9725f275c61ff6fad89ec9c7256474',
             'dev_requirement' => false,
         ),
         'nesbot/carbon' => array(
@@ -82,7 +82,7 @@
             'aliases' => array(
                 0 => '2.x-dev',
             ),
-            'reference' => 'bdf4f4fe3a3eac4de84dbec0738082a862c68ba6',
+            'reference' => '01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a',
             'dev_requirement' => false,
         ),
         'psr/container' => array(
@@ -135,7 +135,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/translation',
             'aliases' => array(),
-            'reference' => '3aaa746957af025557e2aefdeb96b607ac3d0c74',
+            'reference' => 'dee863694f76b2f867cfebb96ecc5f8701f4af0b',
             'dev_requirement' => false,
         ),
         'symfony/translation-contracts' => array(
@@ -170,7 +170,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '6427a120ce264628b8b7d441ae7fac8218f4afbb',
+            'reference' => '0b40c62bfea0c9f45fbc70af97a75b8bb7279d22',
             'dev_requirement' => false,
         ),
     ),

@@ -205,7 +205,7 @@
                                                                 text-align: right;
                                                             "
                                                         >
-                                                        مع تمنياتنا لك بالتوفيق والسلامة،
+                                                        مع تمنياتنا لك بالتوفيق، 
                                                         </p>
                                                         <p
                                                             style="
@@ -216,7 +216,7 @@
                                                                 text-align: right;
                                                             "
                                                         >
-                                                            {{config('app.name')}}
+                                                        فريق {{config('email.app_name')}}
                                                             .
                                                         </p>
                                                     </td>
@@ -496,7 +496,7 @@
                                             "
                                         >
                                             جميع الحقوق محفوظة لـ منصة
-                                            {{config('app.name')}}
+                                            {{config('email.app_name')}}
                                         </p>
                                     </td>
                                 </tr>
