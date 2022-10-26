@@ -2,11 +2,11 @@
   "name": "wameed/wameed-email-theme",
   "description": "This package contains Wameed's emails theme.",
   "type": "library",
+  "license": "MIT",
   "require": {
     "php": ">=7.3",
     "illuminate/support": ">=7.3"
   },
-  "license": "MIT",
   "authors": [
     {
       "name": "Ziad Rashad",
@@ -22,8 +22,10 @@
     "laravel": {
       "providers": [
         "Wameed\\WameedEmailTheme\\EmailServiceProvider"
-      ]
+      ],
+      "aliases": {
+        "WameedEmailTheme": "WameedEmailTheme"
+      }
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
