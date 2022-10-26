@@ -12,4 +12,5 @@ This package contains Wameed's emails theme.
 - Optimize cache
 
 `php artisan optimize`
- 
+
+ ![](example.png)
