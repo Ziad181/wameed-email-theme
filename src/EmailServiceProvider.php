@@ -14,10 +14,10 @@ class EmailServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        
+
         $this->publishes([__DIR__ . '/resources/views/Mails' => resource_path('views/wameed/email')], 'views');
 
-        $this->publishes([__DIR__ . '/../config/email.php' => config_path('wameed/email.php'),]);
+        $this->publishes([__DIR__ . '/../config/email.php' => config_path('email.php'),]);
     }
 
 
