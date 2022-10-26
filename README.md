@@ -7,9 +7,10 @@ This package contains Wameed's emails theme.
 
 - You can publish using the following command
 
-`php artisan vendor:publish --provider="Wameed\\WameedEmailTheme\\EmailServiceProvider"`
+`php artisan vendor:publish --provider="Wameed\WameedEmailTheme\EmailServiceProvider"`
 
 - Optimize cache
 
 `php artisan optimize`
- 
+
+ ![](example.png)

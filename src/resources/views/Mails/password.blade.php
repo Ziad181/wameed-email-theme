@@ -169,8 +169,7 @@
                                                             text-align: right;
                                                         "
                                                     >
-                                                        رمز التحقق تأكيد الحساب
-                                                        من
+                                                        كلمة المرور الخاصة بك في منصة
                                                         {{config('email.app_name')}}
                                                     </p>
                                                     <p
@@ -182,8 +181,8 @@
                                                             text-align: right;
                                                         "
                                                     >
-                                                        يُرجى إدخال هذا الرمز في
-                                                        منصة  {{config('email.app_name')}} لتأكيد الحساب
+                                                        يُرجى إدخال كلمة المرور في
+                                                        منصة  {{config('email.app_name')}}
                                                         :
                                                     </p>
                                                     <h3
@@ -195,7 +194,7 @@
                                                             text-align: right;
                                                         "
                                                     >
-                                                    {{$data['otp']}}
+                                                    {{$data['password']}}
                                                     </h3>
                                                     <p
                                                         style="
@@ -206,8 +205,8 @@
                                                             text-align: right;
                                                         "
                                                     >
-                                                        يُرجى عدم مشاركة هذا
-                                                        الرمز مع أي شخص وعدم
+                                                        يُرجى عدم مشاركة كلمة المرور
+                                                        مع أي شخص وعدم
                                                         استخدامه إلا داخل منصة
                                                         {{config('email.app_name')}}.
                                                     </p>
@@ -255,11 +254,11 @@
                     "
                 >
                     <table
-                            border="0"
-                            width="100%"
-                            cellspacing="0"
-                            cellpadding="0"
-                            style="
+                        border="0"
+                        width="100%"
+                        cellspacing="0"
+                        cellpadding="0"
+                        style="
                             border-top: 1px solid #e0e4ec;
                             border-radius: 0;
                             padding: 20px 20px 0;
@@ -267,9 +266,9 @@
                         "
                     >
                         <tbody>
-                        <tr style="border-bottom: 30px solid #f8f9fb">
-                            <td style="text-align: center">
-                                <a
+                            <tr style="border-bottom: 30px solid #f8f9fb">
+                                <td style="text-align: center">
+                                    <a
                                         href="{{config('email.website_url')}}"
                                         target="_blank"
                                         style="
@@ -277,17 +276,17 @@
                                             color: #4c535f;
                                             font-size: 15px;
                                         "
-                                >الموقع الرسمي</a
-                                >
-                            </td>
-                            <td
+                                        >الموقع الرسمي</a
+                                    >
+                                </td>
+                                <td
                                     style="
                                         text-align: center;
                                         border-right: 1px solid #e0e4ec;
                                         border-left: 1px solid #e0e4ec;
                                     "
-                            >
-                                <a
+                                >
+                                    <a
                                         href="{{config('email.terms_url')}}"
                                         target="_blank"
                                         style="
@@ -295,12 +294,12 @@
                                             color: #4c535f;
                                             font-size: 15px;
                                         "
-                                >الشروط والأحكام
-                                </a>
-                            </td>
+                                        >الشروط والأحكام
+                                    </a>
+                                </td>
 
-                            <td style="text-align: center">
-                                <a
+                                <td style="text-align: center">
+                                    <a
                                         href="{{config('email.privacy_url')}}"
                                         target="_blank"
                                         style="
@@ -308,19 +307,19 @@
                                             color: #4c535f;
                                             font-size: 15px;
                                         "
-                                >سياسة الخصوصية</a
-                                >
-                            </td>
-                        </tr>
-                        <tr>
-                            <td
+                                        >سياسة الخصوصية</a
+                                    >
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
                                     colspan="3"
                                     style="
                                         text-align: center;
                                         padding: 30px 0 30px 0;
                                     "
-                            >
-                                <table
+                                >
+                                    <table
                                         border="0"
                                         width="100%"
                                         cellspacing="0"
@@ -329,106 +328,106 @@
                                             border-collapse: collapse;
                                             font-family: Tajawal;
                                         "
-                                >
-                                    <tbody>
-                                    <tr>
-                                        <td>
-                                            <table
-                                                    border="0"
-                                                    cellspacing="0"
-                                                    cellpadding="0"
-                                                    style="
+                                    >
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table
+                                                        border="0"
+                                                        cellspacing="0"
+                                                        cellpadding="0"
+                                                        style="
                                                             margin: auto;
                                                             border-spacing: 22px
                                                                 0;
                                                             border-collapse: separate;
                                                         "
-                                            >
-                                                <tbody>
-                                                <tr>
-                                                    @foreach(config('email.socials') as $link)
-                                                        <td
-                                                                style="
+                                                    >
+                                                        <tbody>
+                                                            <tr>
+                                                                @foreach(config('email.socials') as $link)
+                                                                    <td
+                                                                        style="
                                                                         width: 44px;
                                                                         height: 44px;
                                                                         background-color: #ffffff;
                                                                         border-radius: 10px;
                                                                         text-align: center;
                                                                     "
-                                                        >
-                                                            <a
-                                                                    href="{{$link['link']}}"
-                                                                    target="_blank"
-                                                            >
-                                                                <img
-                                                                        height="24"
-                                                                        src="{{$link['icon']}}"
-                                                                        style="
+                                                                    >
+                                                                        <a
+                                                                            href="{{$link['link']}}"
+                                                                            target="_blank"
+                                                                        >
+                                                                            <img
+                                                                                height="24"
+                                                                                src="{{$link['icon']}}"
+                                                                                style="
                                                                                 border: 0;
                                                                                 margin-top: 5px;
                                                                             "
-                                                                        class="CToWUd"
-                                                                        data-bit="iit"
-                                                                />
-                                                            </a>
-                                                        </td>
-                                                    @endforeach
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </td>
-                        </tr>
-                        @if(config('email.support_email'))
+                                                                                class="CToWUd"
+                                                                                data-bit="iit"
+                                                                            />
+                                                                        </a>
+                                                                    </td>
+                                                                @endforeach
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            @if(config('email.support_email'))
                             <tr>
                                 <td colspan="3" style="text-align: center">
                                     <a
-                                            href="mailto:{{config('email.support_email')}}"
-                                            target="_blank"
-                                            style="color: #5d3ebd; font-size: 15px"
-                                    >{{config('email.support_email')}}</a
+                                        href="mailto:{{config('email.support_email')}}"
+                                        target="_blank"
+                                        style="color: #5d3ebd; font-size: 15px"
+                                        >{{config('email.support_email')}}</a
                                     >
                                     <br />
                                     <br />
                                     @if(config('email.support_phone'))
-                                        <a
-                                                href="tel:+966504669036"
-                                                target="_blank"
-                                                style="
+                                    <a
+                                        href="tel:+966504669036"
+                                        target="_blank"
+                                        style="
                                             color: #4c535f;
                                             font-size: 15px;
                                             text-decoration: none;
                                         "
-                                                dir="ltr"
-                                        >
-                                            {{config('email.support_phone')}} {{config('email.work_time')}}</a
-                                        >
+                                        dir="ltr"
+                                    >
+                                    {{config('email.support_phone')}} {{config('email.work_time')}}</a
+                                    >
                                     @endif
                                 </td>
                             </tr>
-                        @endif
-                        <tr>
-                            <td
+                            @endif
+                            <tr>
+                                <td
                                     colspan="3"
                                     style="
                                         text-align: center;
                                         padding-top: 30px;
                                     "
-                            >
-                                <p
+                                >
+                                    <p
                                         style="
                                             color: #4c535f;
                                             font-size: 15px;
                                             text-align: center;
                                         "
-                                >
-                                    جميع الحقوق محفوظة لـ منصة  {{config('email.app_name')}}
-                                </p>
-                            </td>
-                        </tr>
+                                    >
+                                        جميع الحقوق محفوظة لـ منصة  {{config('email.app_name')}}
+                                    </p>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </td>

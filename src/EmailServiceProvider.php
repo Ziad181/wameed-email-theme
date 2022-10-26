@@ -14,9 +14,12 @@ class EmailServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([__DIR__ . '/resources/views' => resource_path('views'),]);
-        $this->publishes([__DIR__ . '/config/email.php' => config_path('email.php'),]);
+
+        $this->publishes([__DIR__ . '/resources/views/Mails' => resource_path('views/wameed/email')], 'views');
+
+        $this->publishes([__DIR__ . '/../config/email.php' => config_path('email.php'),]);
     }
+
 
     /**
      * Register any application services.
@@ -25,5 +28,8 @@ class EmailServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        $this->app->bind('WameedEmailTheme', function () {
+            $this->loadViewsFrom(__DIR__ . '/resources/views/Mails', 'WameedEmailTheme');
+        });
     }
 }
